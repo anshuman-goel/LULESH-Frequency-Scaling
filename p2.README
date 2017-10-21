@@ -158,7 +158,7 @@ Elapsed time = 21.66 (s)
 
 Final statistics (used to plot the graphs)
 
-Frequency	    Power      Elapsed Time   PAPI_RES_STL      PAPI_STL_ICY
+Frequency     Power      Elapsed Time   PAPI_RES_STL      PAPI_STL_ICY
 800 MHz       683.3      43.03          3652723681        67853646
 1000 MHz	    691.1	     35.71	        3835712404	      66285370
 1.20 GHz	    698.6	     31.58	        4200841936	      74908692
