@@ -7,11 +7,32 @@ ndas Neha Das
 
 ################################################################################
 
-For Idle one (For 800MHz):
-602.7 Watts
 
-For 800 MHz:
-683.3 Watts
+
+Problem Objective: 
+
+Your task is to determine the effect of frequency scaling on the LULESH code's:
+
+A: wall-clock time
+B: power consumption
+C: stall cycles
+
+
+Compilation and Execution Instructions:
+
+(Refer to the HW description)
+
+
+Observations:
+
+
+Frequency = 800 MHz:
+
+Average Power consumption = 683.3 Watts
+
+Stall Cycle counters (per rank): 
+
+(rank, PAPI_RES_STL, PAPI_STL_ICY)
 
 7 4088507959 91370975
 6 3982685543 86296068
@@ -26,18 +47,18 @@ Run completed:
    Problem size        =  100
    MPI tasks           =  8
    Iteration count     =  5
-   Final Origin Energy = 2.615133e+09
-   Testing Plane 0 of Energy Array on rank 0:
-        MaxAbsDiff   = 1.862645e-09
-        TotalAbsDiff = 1.865079e-09
-        MaxRelDiff   = 1.384394e-13
 
-Elapsed time         =      43.03 (s)
-Grind time (us/z/c)  =  8.6053605 (per dom)  ( 1.0756701 overall)
-FOM                  =   929.6531 (z/s)
+Elapsed time = 43.03 (s)
 
-For 1000 MHz:
-691.1 Watts
+---------------------------------------------------------------------
+
+Frequency = 1000 MHz:
+
+Average Power consumption = 691.1 Watts
+
+Stall Cycle counters (per rank): 
+
+(rank, PAPI_RES_STL, PAPI_STL_ICY)
 
 7 4296995914 86868930
 6 4132026695 85683274
@@ -47,22 +68,23 @@ For 1000 MHz:
 3 3725205659 55870267
 1 3409261743 47070752
 0 3312131532 36615867
+
 Run completed:
    Problem size        =  100
    MPI tasks           =  8
    Iteration count     =  5
-   Final Origin Energy = 2.615133e+09
-   Testing Plane 0 of Energy Array on rank 0:
-        MaxAbsDiff   = 1.862645e-09
-        TotalAbsDiff = 1.865079e-09
-        MaxRelDiff   = 1.384394e-13
 
-Elapsed time         =      35.71 (s)
-Grind time (us/z/c)  =  7.1420187 (per dom)  (0.89275234 overall)
-FOM                  =  1120.1315 (z/s)
+Elapsed time = 35.71 (s)
 
-For 1200MHz:
-698.6 Watts
+---------------------------------------------------------------------
+
+Frequency = 1200 MHz
+
+Average Power consumption = 698.6 Watts
+
+Stall Cycle counters (per rank): 
+
+(rank, PAPI_RES_STL, PAPI_STL_ICY)
 
 7 4640627211 108424953
 6 4577349759 88331218
@@ -72,22 +94,23 @@ For 1200MHz:
 2 4055440442 66871405
 1 3786066536 56213276
 0 3647546197 43476202
+
 Run completed:
    Problem size        =  100
    MPI tasks           =  8
    Iteration count     =  5
-   Final Origin Energy = 2.615133e+09
-   Testing Plane 0 of Energy Array on rank 0:
-        MaxAbsDiff   = 1.862645e-09
-        TotalAbsDiff = 1.865079e-09
-        MaxRelDiff   = 1.384394e-13
 
-Elapsed time         =      31.58 (s)
-Grind time (us/z/c)  =   6.315166 (per dom)  (0.78939576 overall)
-FOM                  =  1266.7917 (z/s)
+Elapsed time = 31.58 (s)
 
-For 1500MHz:
-710.4 Watts
+---------------------------------------------------------------------
+
+Frequency = 1500MHz:
+
+Average Power consumption = 710.4 Watts
+
+Stall Cycle counters (per rank): 
+
+(rank, PAPI_RES_STL, PAPI_STL_ICY)
 
 7 4789547642 99062999
 6 4668389500 88052257
@@ -97,22 +120,23 @@ For 1500MHz:
 3 4267938290 76039895
 1 3914109420 55632206
 0 3797363787 42767349
+
 Run completed:
    Problem size        =  100
    MPI tasks           =  8
    Iteration count     =  5
-   Final Origin Energy = 2.615133e+09
-   Testing Plane 0 of Energy Array on rank 0:
-        MaxAbsDiff   = 1.862645e-09
-        TotalAbsDiff = 1.865079e-09
-        MaxRelDiff   = 1.384394e-13
 
-Elapsed time         =      25.86 (s)
-Grind time (us/z/c)  =  5.1718634 (per dom)  (0.64648292 overall)
-FOM                  =  1546.8313 (z/s)
+Elapsed time = 25.86 (s)
 
-For 2000MHz:
-729.6 Watts
+---------------------------------------------------------------------
+
+Frequency = 2000MHz
+
+Average Power consumption = 729.6 Watts
+
+Stall Cycle counters (per rank): 
+
+(rank, PAPI_RES_STL, PAPI_STL_ICY)
 
 7 5550060621 118903977
 6 5445411071 108833290
@@ -122,36 +146,38 @@ For 2000MHz:
 3 4928273722 76030953
 1 4547473380 63277324
 0 4314815256 46532742
+
 Run completed:
    Problem size        =  100
    MPI tasks           =  8
    Iteration count     =  5
-   Final Origin Energy = 2.615133e+09
-   Testing Plane 0 of Energy Array on rank 0:
-        MaxAbsDiff   = 1.862645e-09
-        TotalAbsDiff = 1.865079e-09
-        MaxRelDiff   = 1.384394e-13
 
-Elapsed time         =      21.66 (s)
-Grind time (us/z/c)  =  4.3315871 (per dom)  (0.54144838 overall)
-FOM                  =  1846.8981 (z/s)
+Elapsed time = 21.66 (s)
 
-Frequency	Power	Elapsed Time	PAPI_RES_STL	PAPI_STL_ICY
-800 MHz	683.3	43.03	3652723680.75	67853646
-1000 MHz	691.1	35.71	3835712404	66285370
-1.20 GHz	698.6	31.58	4200841936	74908692
-1.50 GHz	710.4	25.86	4350531808	75207850
-2.00 GHz	729.6	21.66	5044533567	88288163
+---------------------------------------------------------------------
+
+Final statistics (used to plot the graphs)
+
+Frequency	    Power	     Elapsed Time	  PAPI_RES_STL	    PAPI_STL_ICY
+800 MHz	      683.3	     43.03	        3652723681	      67853646
+1000 MHz	    691.1	     35.71	        3835712404	      66285370
+1.20 GHz	    698.6	     31.58	        4200841936	      74908692
+1.50 GHz	    710.4	     25.86	        4350531808	      75207850
+2.00 GHz	    729.6	     21.66 	        5044533567	      88288163
+
+---------------------------------------------------------------------
+
+Discussions:
 
 Power:
 As frequency is increased, power consumption will increase proportionally as power is directly proportion to f*V^2.
 This is also evident from the graph.
 
 Time:
-Elapsed time will decrease as frequency increase because there are more cycles executed per second.
+Elapsed time will decrease as frequency increases because there are more cycles executed per second.
 
 PAPI_RES_STL:
 As the frequency increases, more cycles are spent in waiting for resource access since the time required to access a particular resource remains constant.
 
 PAPI_STL_ICY:
-As the frequency increases, more cycles are spent in waiting for resource access since the time required to access a particular resource remains constant.
+As the frequency increases, more cycles are spent in waiting on instructions since the instructions too reside in memory whose access latency will remain constant.
